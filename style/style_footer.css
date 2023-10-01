@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background: rgb(37, 27, 62);
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p {
+  max-width: 500px;
+  margin: 20px auto;
+  list-style: 28px;
+  font-size: 14px;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0 3rem 0;
+}
+.socials li {
+  margin: 15px 20px;
+}
+.socials a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.socials a i {
+  font-size: 2em;
+}
+.socials a:hover i {
+  color: rgb(9, 255, 0);
+}
+.footer-buttom {
+  text-align: center;
+  padding: 10px 0;
+  width: 100vw;
+  background-image: url(https://img.wallscloud.net/uploads/thumb/1532713842/neon-light-1024x576-MM-80.webp);
+}
+.footer-buttom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
